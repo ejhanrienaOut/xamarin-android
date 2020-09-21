@@ -255,7 +255,6 @@ namespace Xamarin.Android.Build.Tests
 </Project>
 ",
 			});
-			app1.SetProperty (KnownProperties.AndroidUseSharedRuntime, "False");
 			sb.Projects.Add (app1);
 			var code = new StringBuilder ();
 			code.AppendLine ("using System;");
